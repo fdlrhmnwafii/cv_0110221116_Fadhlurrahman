@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Pesanan Barang</title>
+    </head>
+    <body>
+        <form method="post">
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th width="200"><a href="www.google.com">Home</a></th><th width="200"><a href="www.google.com">Generate Link</a></th><th width="200"><a href="www.google.com">Transaction History</a></th><th width="200"><a href="www.google.com">Policy</a></th><th width="200"><a href="www.google.com">Logout</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img src="picture1.png" width="255" height="300" alt="picture 1">
+                            <input type="file" name="photo">
+                        </td>
+                        <td colspan="5">
+                            <label>Title Here :
+                                <input type="text" name="nama">
+                            </label>
+                            <br>
+                            <br>
+                            <label>
+                                 Description :
+                                <textarea name="deskripsi" cols="40" rows="4"></textarea>
+                            </label>
+                            <br>
+                            <br>
+                            <label>Account Number :
+                                <input type="text" name="nomor_akun">
+                            </label>
+                            <br>
+                            <br>
+                            <label>Bank :
+                                <select name="tipe-bank" size="1">
+                                    <option>Mandiri</option>
+                                    <option>BCA</option>
+                                    <option>HSBC</option>
+                                    <option>BRI</option>
+                                    <option>BNI</option>
+                                </select>
+                            </label>
+                            <br>
+                            <br>
+                            <label>Account Holder :
+                                <input type="text" name="acoount-holder">
+                            </label>
+                            <br>
+                            <br>
+                            <label>Transaction :
+                                <input type="number" name="transaksi" min="1" max="200">*If the transaction is for 3 person, choose 3 from the drop-down list 
+                            </label>
+                            <br>
+                            <br>
+                            
+                            <input type="checkbox" id="mobile_phone" name="mobile_phone" value="phone">
+                            <label for="mobile_phone">Send to Mobile Phone</label><br>
+                            <input type="checkbox" id="email" name="email" value="mail">
+                            <label for="email">Send to Email</label>
+                            
+                            <br>
+                            <br>
+                            <label>Send to Mobile Phone :
+                                <input type="text" name="send-to-mobile-phone">
+                            </label>
+                            <br>
+                            <br>
+                            <label>Send to Email :
+                                <input type="email" name="send-to-email">
+                            </label>
+                            <br>
+                            <br>   
+                            <br>
+                            <input type="submit" value="Generate Nabr Link">
+                        </td>
+                    </tr>
+                </tbody> 
+            </table>
+        </form>
+    </body>
+</html>
